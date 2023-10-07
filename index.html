@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModeSwitch</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="myNav" class="overlay"> 
+          <a href="#">Works</a>
+          <a href="#">Resume</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        <img onclick="myFunction()" src="lightmode.png" class="toggle_menu" height="2%" width="5%"/>
+    </div>
+    <br>
+    <div class="content">
+        <img src="pic.jpeg" height="15%" width="15%"><br>
+        <p style="font-family: monospace;">Hi, I'm John</p><br>
+        <h1 alignment="center">Building digital products, brands and experience.</h1>
+        <p>Product designer and web developer in SF.
+            I specialize in UI/UX design, Responsive Web Design
+            and visual development.
+        </p>
+    </div>
+    <div class="btn">
+    <button>Connect with me</button>
+    </div>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</body>
+</html>

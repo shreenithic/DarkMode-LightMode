@@ -1,0 +1,41 @@
+a{
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:gray;
+}
+.overlay{
+    float: left;
+    padding: 8px;
+}
+body{
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+h1{
+    font-family: monospace;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+    padding:50px;
+    align-content: center;
+}
+.btn{
+    align-content: center;
+}
+button{
+    background-color: white;
+    color:black;
+    border-radius: 15px;
+    border-color: white;
+    font-family: monospace;
+    text-align: center;
+}
+.dark-mode {
+    background-color: white;
+    color: black;
+    
+  }
